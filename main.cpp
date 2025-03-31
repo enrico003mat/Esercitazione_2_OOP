@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	complex_number<double> r1(1.1,1.0);
-	complex_number<double> r2(1.2,0.0);
+	complex_number<double> r2(1.2,3.0);
 	cout << r1 << " + " << r2 << " = " << r1+r2 << endl;
 	
 	cout<<"Real part of r2 is:"<<r2.re()<<endl;
